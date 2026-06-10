@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd 
 
-server = "http://127.0.0.1:8000"
+server = st.secrets["be_server_url"]
 
 st.title("Expense Tracker App")
 
